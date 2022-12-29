@@ -1,0 +1,44 @@
+.windowBar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(48, 47, 47);
+
+  .window-left-part {
+    display: flex;
+
+    .btn-window-search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+
+      img {
+        width: 26px;
+      }
+    }
+  }
+
+  .window-right-part {
+    display: flex;
+
+    .battery-wifi-sound-container {
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 20px;
+        margin: 0 6px;
+      }
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      font-size: 14px;
+      margin: 2px 5px;
+    }
+  }
+}
