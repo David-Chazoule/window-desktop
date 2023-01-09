@@ -5,14 +5,23 @@
   height: 5vh;
   background-color: rgb(48, 47, 47);
 
+  
+
   .window-left-part {
     display: flex;
+
+    cursor: pointer;
+    &:hover{
+      background-color: rgb(83, 82, 82);
+    }
 
     .btn-window-search-container {
       display: flex;
       align-items: center;
       justify-content: center;
       margin: 0 10px;
+
+  
 
       img {
         width: 26px;
@@ -22,6 +31,10 @@
 
   .window-right-part {
     display: flex;
+
+    .weather-container{
+      display: flex;
+    }
 
     .battery-wifi-sound-container {
       margin: 0 10px;
@@ -37,8 +50,19 @@
     p {
       color: white;
       text-align: center;
-      font-size: 14px;
+      font-size: 12px;
       margin: 2px 5px;
     }
   }
+.time-date-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(83, 82, 82);
+  }
+
+
+
+}
 }

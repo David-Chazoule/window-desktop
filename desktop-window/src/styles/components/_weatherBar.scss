@@ -1,0 +1,22 @@
+.weatherBar-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(83, 82, 82);
+  }
+
+  img {
+    width: 40px;
+  }
+
+  .weatherDetails{
+    display: flex;
+    
+    top:205px;
+  }
+  
+}

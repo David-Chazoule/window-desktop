@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function WindowMain() {
-  return (
-    <div className='windowMain-container'><h1>yo</h1></div>
-  )
+  return <div className="windowMain-container"></div>;
 }
 
-export default WindowMain
+export default WindowMain;
